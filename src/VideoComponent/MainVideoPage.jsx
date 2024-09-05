@@ -50,7 +50,7 @@ function MainVideoPage() {
         // console.log(token);
 
         const response = await axios.post(
-          'https://localhost:3000/validate-link',
+          'https://react-video-chat-app-puce.vercel.app/validate-link',
           {token},
         );
         if (response.data) {

@@ -1,7 +1,7 @@
 const initialState = {
-  stream: '',
+  stream: '', //tranks play in video tag
   who: '',
-  peerConection: '',
+  peerConection: '', // peerconnection connect c1 2 c2
 };
 export default (state = initialState, action) => {
   if (action.type === 'ADD_STREAM') {
